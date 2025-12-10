@@ -54,27 +54,22 @@ export default function FinalCTASection() {
               Build My Web Resume – ₹499
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-neutral-600 text-white hover:bg-neutral-900 rounded-full text-base px-8"
-            >
-              Chat on WhatsApp
-            </Button>
-          </motion.div>
 
-          <motion.div
-            className="pt-6"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-          >
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-900 border border-neutral-800 rounded-full text-sm text-neutral-300">
-              <Zap className="w-4 h-4 text-cyan-400" />
-              <span>Limited-time launch price. Increasing soon. </span>
-            </div>
-          </motion.div>
+            <motion.div
+              className="pt-6"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-900 border border-neutral-800 rounded-full text-sm text-neutral-300">
+                <Zap className="w-4 h-4 text-cyan-400" />
+                <span>Limited-time launch price. Increasing soon.</span>
+              </div>
+            </motion.div>
+
+          </motion.div> {/* ← Added this closing tag */}
+
         </motion.div>
       </div>
     </section>

@@ -70,13 +70,13 @@ export default function HowItWorksSection() {
           {steps.map((step, index) => (
             <motion.div key={index} className="relative" variants={itemVariants}>
               <div className="flex flex-col items-center text-center">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 p-3 mb-6 flex items-center justify-center relative z-10">
+
+                {/* Main icon */}
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 p-3 mb-6 flex items-center justify-center">
                   <step.icon className="w-8 h-8 text-white" />
                 </div>
-                <div className="w-10 h-10 rounded-full bg-black border-2 border-cyan-500 flex items-center justify-center absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-                  <span className="text-cyan-400 font-bold text-sm">{step.number}</span>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-3 mt-4">{step.title}</h3>
+
+                <h3 className="text-xl font-bold text-white mb-3">{step.title}</h3>
                 <p className="text-neutral-400 text-sm leading-relaxed">{step.description}</p>
               </div>
             </motion.div>

@@ -58,7 +58,7 @@ export default function HeroSection() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-neutral-400 leading-relaxed max-w-lg text-pretty">
-                Create stunning, interactive, job-ready web resumes in under 5 minutes. Impress recruiters instantly.
+                Create stunning, interactive, job-ready web resumes in under 24 hours. Impress recruiters instantly.
                 Just ₹499 only.
               </p>
             </div>
