@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Zap } from "lucide-react"
+import Link from "next/link"
 
 export default function FinalCTASection() {
   return (
@@ -47,13 +48,15 @@ export default function FinalCTASection() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <Button
-              size="lg"
-              className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
-            >
-              Build My Web Resume – ₹499
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
+            <Link href="https://payments.cashfree.com/forms/cvwebx">
+              <Button
+                size="lg"
+                className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
+              >
+                Build My Web Resume – ₹499
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
 
             <motion.div
               className="pt-6"

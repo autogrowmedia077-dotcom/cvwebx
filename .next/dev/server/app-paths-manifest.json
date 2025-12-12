@@ -1,3 +1,4 @@
 {
+  "/live-samples/page": "app/live-samples/page.js",
   "/page": "app/page.js"
 }

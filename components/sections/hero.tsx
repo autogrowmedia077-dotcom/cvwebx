@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Zap } from "lucide-react"
+import Link from "next/link"
 
 export default function HeroSection() {
   const gridVariants = {
@@ -88,20 +89,24 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              <Button
-                size="lg"
-                className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
-              >
-                Create My Web Resume Now – ₹499
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-transparent border-neutral-600 text-white hover:bg-neutral-900 rounded-full text-base px-8"
-              >
-                View Live Samples
-              </Button>
+              <Link href="https://payments.cashfree.com/forms/cvwebx">
+                <Button
+                  size="lg"
+                  className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
+                >
+                  Create My Web Resume Now – ₹499
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+              <Link href="/live-samples">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-transparent border-neutral-600 text-white hover:bg-neutral-900 rounded-full text-base px-8 w-full sm:w-auto"
+                >
+                  View Live Samples
+                </Button>
+              </Link>
             </motion.div>
           </motion.div>
 

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Check, ArrowRight, Zap } from "lucide-react"
+import Link from "next/link"
 
 export default function PricingSection() {
   const features = [
@@ -76,13 +77,15 @@ export default function PricingSection() {
               ))}
             </motion.div>
 
-            <Button
-              size="lg"
-              className="w-full bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base py-6 mb-4"
-            >
-              Get Started for ₹499
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
+            <Link href="https://payments.cashfree.com/forms/cvwebx" className="w-full">
+              <Button
+                size="lg"
+                className="w-full bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base py-6 mb-4"
+              >
+                Get Started for ₹499
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
 
             <p className="text-neutral-500 text-sm">30-day money-back guarantee. No questions asked.</p>
           </div>

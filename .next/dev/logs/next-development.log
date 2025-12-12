@@ -1,225 +1,61 @@
-[00:00:00.833] Server  LOG     
-[00:00:00.834] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:00.835] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:00.835] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:00.835] Server  LOG     
-[00:00:00.835] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:00.836] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:00.836] Server  LOG     
-[00:00:00.957] Server  LOG      ✓ Ready in 640ms
-[00:00:05.659] Server  LOG      ○ Compiling / ...
-[00:00:14.833] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:01.675] Server  LOG      ✓ Ready in 1056ms
+[00:00:08.896] Server  LOG      ○ Compiling / ...
+[00:00:28.539] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:14.877] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:28.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:18.230] Server  WARN     ⚠ Cross origin request detected from 3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:18.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.905] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:19.905] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:19.906] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/","r":"https://workstations.cloud.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383196007}
-[00:00:42.585] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:00:43.765] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:03:28.153] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:05:22.946] Server  LOG      ✓ Compiled in 1018ms
-[00:05:25.749] Server  LOG      ✓ Compiled in 807ms
-[00:05:26.906] Browser ERROR   uncaughtError: ReferenceError: step is not defined
-[00:06:09.765] Server  LOG      ✓ Compiled in 171ms
-[00:06:09.950] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:06:10.201] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:30.671] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.119] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:32.119] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:32.119] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765526519543}
+[00:04:10.771] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:06:12.906] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:13.849] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:13.849] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:13.849] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383550495}
-[00:06:50.592] Server  LOG      ✓ Compiled in 62ms
-[00:06:54.778] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:07:29.894] Server  LOG      ✓ Compiled in 117ms
-[00:07:32.286] Server  LOG      ✓ Compiled in 109ms
-[00:07:43.634] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:07:45.045] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:08:56.393] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:09:04.309] Server  LOG      ✓ Compiled in 253ms
-[00:09:12.765] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:09:38.652] Server  LOG      ✓ Compiled in 84ms
-[00:09:41.008] Server  LOG      ✓ Compiled in 321ms
-[00:09:55.174] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:04:11.178] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:57.683] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:58.393] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:58.393] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:58.394] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://3000-firebase-cvwebx-1765372617321.cluster-bg6uurscprhn6qxr6xwtrhvkf6.cloudworkstations.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765383775009}
-[00:10:04.018] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:10:28.859] Server  LOG      ✓ Compiled in 107ms
-[00:10:29.633] Browser ERROR   ./components/sections/final-cta.tsx:72:13
-Parsing ecmascript source code failed
-  70 |           </motion.div>
-  71 |         </motion.div>
-> 72 |       </div>
-     |             ^
-> 73 |     </section>
-     | ^^^^^
-  74 |   )
-  75 | }
-  76 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:10:30.392] Browser ERROR   ./components/sections/final-cta.tsx:72:13
-Parsing ecmascript source code failed
-  70 |           </motion.div>
-  71 |         </motion.div>
-> 72 |       </div>
-     |             ^
-> 73 |     </section>
-     | ^^^^^
-  74 |   )
-  75 | }
-  76 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:10:47.903] Browser ERROR   ./components/sections/final-cta.tsx:71:13
-Parsing ecmascript source code failed
-  69 |           </motion.div>
-  70 |         </motion.div>
-> 71 |       </div>
-     |             ^
-> 72 |     </section>
-     | ^^^^^
-  73 |   )
-  74 | }
-  75 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:10:50.905] Browser ERROR   ./components/sections/final-cta.tsx:70:13
-Parsing ecmascript source code failed
-  68 |           </motion.div>
-  69 |         </motion.div>
-> 70 |       </div>
-     |             ^
-> 71 |     </section>
-     | ^^^^^
-  72 |   )
-  73 | }
-  74 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:12:14.490] Server  LOG      ✓ Compiled in 78ms
-[00:12:14.905] Browser ERROR   ./components/sections/final-cta.tsx:29:20
-Parsing ecmascript source code failed
-  27 |
-  28 |       <div className="container mx-auto max-w-2xl relative z-10">
-> 29 |         <motion.div?
-     |                    ^
-  30 |           className="text-center space-y-6"
-  31 |           initial={{ opacity: 0, y: 20 }}
-  32 |           whileInView={{ opacity: 1, y: 0 }}
-
-Expected '</', got '?'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:12:15.955] Server  LOG      ✓ Compiled in 98ms
-[00:12:16.906] Browser ERROR   ./components/sections/final-cta.tsx:70:13
-Parsing ecmascript source code failed
-  68 |           </motion.div>
-  69 |         </motion.div>
-> 70 |       </div>
-     |             ^
-> 71 |     </section>
-     | ^^^^^
-  72 |   )
-  73 | }
-  74 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:12:17.891] Server  LOG      ✓ Compiled in 68ms
-[00:12:18.905] Browser ERROR   ./components/sections/final-cta.tsx:34:9
-Parsing ecmascript source code failed
-  32 |           whileInView={{ opacity: 1, y: 0 }}
-  33 |           viewport={{ once: true }}
-> 34 |         >
-     |         ^
-  35 |           <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-  36 |             Your Career Deserves More Than a<span className="text-cyan-400"> PDF.</span>
-  37 |           </h2>
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:12:22.907] Browser ERROR   ./components/sections/final-cta.tsx:34:9
-Parsing ecmascript source code failed
-  32 |           whileInView={{ opacity: 1, y: 0 }}
-  33 |           viewport={{ once: true }}
-> 34 |         >
-     |         ^
-  35 |           <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-  36 |             Your Career Deserves More Than a<span className="text-cyan-400"> PDF.</span>
-  37 |           </h2>
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:12:24.062] Server  LOG      ✓ Compiled in 314ms
-[00:12:24.906] Browser ERROR   ./components/sections/final-cta.tsx:70:13
-Parsing ecmascript source code failed
-  68 |           </motion.div>
-  69 |         </motion.div>
-> 70 |       </div>
-     |             ^
-> 71 |     </section>
-     | ^^^^^
-  72 |   )
-  73 | }
-  74 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  Server Component:
-    ./components/sections/final-cta.tsx
-    ./app/page.tsx
-[00:13:30.547] Server  LOG      ✓ Compiled in 103ms
-[00:13:30.795] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:04:11.444] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:13:56.741] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:04:12.010] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:12.416] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:12.569] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:19.309] Server  LOG      ✓ Compiled in 860ms
+[00:04:21.198] Server  LOG      ✓ Compiled in 761ms
+[00:04:21.667] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:04:26.020] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:27.584] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:29.986] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:30.138] Server  LOG      ✓ Compiled in 21ms
+[00:04:31.108] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:31.108] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:31.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765526758531}
+[00:04:41.230] Server  LOG      ○ Compiling /live-samples ...
+[00:04:43.718] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /live-samples. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:44.497] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/live-samples color: rgb(120, 120, 120) color: inherit {"dp":"/live-samples","o":"http://localhost:3000/live-samples","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765526771911}
+[00:04:57.638] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:04:58.223] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765526785594}
+[00:06:15.075] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:07:40.673] Browser WARN    'oklab(0.714993 -0.116823 -0.0824538 / 0.5)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:09:25.446] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /live-samples. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:25.723] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/live-samples color: rgb(120, 120, 120) color: inherit {"dp":"/live-samples","o":"http://localhost:3000/live-samples","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765527053140}
+[00:17:45.201] Server  LOG      ✓ Compiled in 407ms
+[00:17:48.726] Server  LOG      ✓ Compiled in 239ms
+[00:18:03.409] Server  LOG      ✓ Compiled in 643ms
+[00:18:05.241] Server  LOG      ✓ Compiled in 366ms
+[00:18:10.612] Server  LOG      ✓ Compiled in 666ms
+[00:18:12.497] Server  LOG      ✓ Compiled in 394ms
+[00:18:13.518] Server  LOG      ✓ Compiled in 338ms
+[00:21:04.304] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:05.026] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765527752387}
+[00:21:19.031] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:20.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:21.242] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:21.243] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:21:21.243] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765527768660}

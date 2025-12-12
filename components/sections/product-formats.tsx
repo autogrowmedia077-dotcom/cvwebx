@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Smartphone, Film, Layout, Briefcase, Zap, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function ProductFormatsSection() {
   const formats = [
@@ -104,13 +105,15 @@ export default function ProductFormatsSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <Button
-            size="lg"
-            className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
-          >
-            Choose My Style – ₹499
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link href="https://payments.cashfree.com/forms/cvwebx">
+            <Button
+              size="lg"
+              className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
+            >
+              Choose My Style – ₹499
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
