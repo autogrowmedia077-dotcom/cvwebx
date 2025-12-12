@@ -110,7 +110,7 @@ export default function Footer() {
         >
           <p>
             © {year} CVWEBX. All rights reserved. Made with <Heart className='w-4 h-4 inline text-red-500 mx-1' /> for
-            job seekers.
+            job seekers by <a href="https://vuce.in" className="underline">Vuce</a>
           </p>
           <div className='flex gap-4 mt-4 md:mt-0'>
             <a href='#' className='hover:text-cyan-400 transition'>

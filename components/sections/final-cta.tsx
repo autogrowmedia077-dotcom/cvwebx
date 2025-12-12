@@ -42,7 +42,7 @@ export default function FinalCTASection() {
           </p>
 
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
+            className="flex flex-col sm:flex-row items-center gap-4 justify-center pt-8"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -51,7 +51,7 @@ export default function FinalCTASection() {
             <Link href="https://payments.cashfree.com/forms/cvwebx">
               <Button
                 size="lg"
-                className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8"
+                className="bg-white text-black hover:bg-neutral-100 font-semibold rounded-full text-base px-8 h-12"
               >
                 Build My Web Resume – ₹499
                 <ArrowRight className="w-5 h-5 ml-2" />
@@ -59,13 +59,12 @@ export default function FinalCTASection() {
             </Link>
 
             <motion.div
-              className="pt-6"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-900 border border-neutral-800 rounded-full text-sm text-neutral-300">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-neutral-900 border border-neutral-800 rounded-full text-sm text-neutral-300 h-12">
                 <Zap className="w-4 h-4 text-cyan-400" />
                 <span>Limited-time launch price. Increasing soon.</span>
               </div>
