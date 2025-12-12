@@ -119,13 +119,31 @@ export default function HeroSection() {
           >
             <div className="relative w-full h-full flex items-center justify-center">
               {[
-                { delay: 0, rotation: -8, x: -40, y: -20 },
-                { delay: 0.1, rotation: 0, x: 0, y: 0 },
-                { delay: 0.2, rotation: 8, x: 40, y: 20 },
+                {
+                  delay: 0,
+                  rotation: -8,
+                  x: -40,
+                  y: -20,
+                  img: "/Minimal-Professional-Web-App-Resume.jpeg",
+                },
+                {
+                  delay: 0.1,
+                  rotation: 0,
+                  x: 0,
+                  y: 0,
+                  img: "/NeoFuturistic-WebApp-Resume.jpeg",
+                },
+                {
+                  delay: 0.2,
+                  rotation: 8,
+                  x: 40,
+                  y: 20,
+                  img: "/Mobile-Web-App-Resume.jpeg",
+                },
               ].map((card, i) => (
                 <motion.div
                   key={i}
-                  className="absolute w-64 h-80 bg-gradient-to-br from-neutral-900 to-black border border-neutral-700 rounded-lg p-6 shadow-2xl"
+                  className="absolute w-64 h-80 bg-neutral-900 border border-neutral-700 rounded-lg shadow-2xl overflow-hidden"
                   animate={{
                     y: [0, -20, 0],
                     rotate: card.rotation,
@@ -140,13 +158,13 @@ export default function HeroSection() {
                     y: card.y,
                   }}
                 >
-                  <div className="w-full h-full bg-neutral-800 rounded border border-neutral-700 flex items-center justify-center">
-                    <div className="text-center space-y-3 px-4">
-                      <div className="w-16 h-16 bg-cyan-500 rounded-full mx-auto" />
-                      <div className="h-2 bg-neutral-700 rounded w-24 mx-auto" />
-                      <div className="h-2 bg-neutral-700 rounded w-32 mx-auto" />
-                      <div className="h-2 bg-neutral-700 rounded w-20 mx-auto" />
-                    </div>
+                  <div className="relative w-full h-full">
+                    <img
+                      src={card.img || "/placeholder.svg"}
+                      alt="Resume Sample"
+                      className="object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   </div>
                 </motion.div>
               ))}

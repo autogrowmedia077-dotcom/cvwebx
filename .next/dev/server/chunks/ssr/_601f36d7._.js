@@ -330,22 +330,25 @@ function HeroSection() {
                                         delay: 0,
                                         rotation: -8,
                                         x: -40,
-                                        y: -20
+                                        y: -20,
+                                        img: "/Minimal-Professional-Web-App-Resume.jpeg"
                                     },
                                     {
                                         delay: 0.1,
                                         rotation: 0,
                                         x: 0,
-                                        y: 0
+                                        y: 0,
+                                        img: "/NeoFuturistic-WebApp-Resume.jpeg"
                                     },
                                     {
                                         delay: 0.2,
                                         rotation: 8,
                                         x: 40,
-                                        y: 20
+                                        y: 20,
+                                        img: "/Mobile-Web-App-Resume.jpeg"
                                     }
                                 ].map((card, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                        className: "absolute w-64 h-80 bg-gradient-to-br from-neutral-900 to-black border border-neutral-700 rounded-lg p-6 shadow-2xl",
+                                        className: "absolute w-64 h-80 bg-neutral-900 border border-neutral-700 rounded-lg shadow-2xl overflow-hidden",
                                         animate: {
                                             y: [
                                                 0,
@@ -364,52 +367,33 @@ function HeroSection() {
                                             y: card.y
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-full h-full bg-neutral-800 rounded border border-neutral-700 flex items-center justify-center",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center space-y-3 px-4",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-16 h-16 bg-cyan-500 rounded-full mx-auto"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/hero.tsx",
-                                                        lineNumber: 145,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "h-2 bg-neutral-700 rounded w-24 mx-auto"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/hero.tsx",
-                                                        lineNumber: 146,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "h-2 bg-neutral-700 rounded w-32 mx-auto"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/hero.tsx",
-                                                        lineNumber: 147,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "h-2 bg-neutral-700 rounded w-20 mx-auto"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/hero.tsx",
-                                                        lineNumber: 148,
-                                                        columnNumber: 23
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/sections/hero.tsx",
-                                                lineNumber: 144,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
+                                            className: "relative w-full h-full",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: card.img || "/placeholder.svg",
+                                                    alt: "Resume Sample",
+                                                    className: "object-cover w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-500"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/hero.tsx",
+                                                    lineNumber: 162,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/hero.tsx",
+                                                    lineNumber: 167,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/sections/hero.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 161,
                                             columnNumber: 19
                                         }, this)
                                     }, i, false, {
                                         fileName: "[project]/components/sections/hero.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 144,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
