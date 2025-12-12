@@ -12,7 +12,7 @@ const DUMMY_PURCHASES = [
   { name: "Ananya R.", location: "Hyderabad", style: "Professional Minimal" },
   { name: "Rohit G.", location: "Chennai", style: "Mobile App Resume" },
   { name: "Neha V.", location: "Gurgaon", style: "Animated Scroll Resume" },
-  { name: "Amit J.", location: "Kolkata", style: "Mobile App Web Resume"}
+  { name: "Amit J.", location: "Kolkata", style: "Mobile App Web Resume" }
 ]
 
 
@@ -67,9 +67,9 @@ export default function PurchaseNotification() {
           transition={{ duration: 0.4, ease: "easeOut" }}
           className="fixed bottom-6 right-6 z-50"
         >
-          <div className="bg-gradient-to-br from-slate-900 to-black border border-cyan-500/30 rounded-lg p-4 w-80 shadow-2xl shadow-cyan-500/20 backdrop-blur-sm">
+          <div className="bg-gradient-to-br from-slate-900 to-black border border-cyan-500/30 rounded-lg p-2 w-56 shadow-2xl shadow-cyan-500/20 backdrop-blur-sm">
             {/* Header */}
-            <div className="flex items-start justify-between mb-3">
+            <div className="flex items-start justify-between mb-2">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
                 <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">New Purchase</span>
@@ -80,10 +80,10 @@ export default function PurchaseNotification() {
             </div>
 
             {/* Content */}
-            <div className="space-y-2">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center flex-shrink-0">
-                  <span className="text-white font-bold text-sm">{currentNotification.name.charAt(0)}</span>
+            <div className="space-y-1.5">
+              <div className="flex items-center gap-2.5">
+                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-xs">{currentNotification.name.charAt(0)}</span>
                 </div>
                 <div>
                   <p className="text-white font-semibold text-sm">{currentNotification.name}</p>
@@ -91,7 +91,7 @@ export default function PurchaseNotification() {
                 </div>
               </div>
 
-              <div className="bg-slate-800/50 rounded px-3 py-2 mt-3">
+              <div className="bg-slate-800/50 rounded px-2.5 py-1.5 mt-2">
                 <p className="text-slate-300 text-xs">
                   just purchased <span className="text-cyan-400 font-semibold">{currentNotification.style}</span>
                 </p>
