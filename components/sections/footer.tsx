@@ -60,18 +60,23 @@ export default function Footer() {
             <h4 className='font-semibold text-white mb-4'>Legal</h4>
             <ul className='space-y-2 text-neutral-400 text-sm'>
               <li>
-                <a href='#' className='hover:text-cyan-400 transition'>
+                <a href='https://pinnacleplus.store/privacy' className='hover:text-cyan-400 transition'>
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href='#' className='hover:text-cyan-400 transition'>
+                <a href='https://pinnacleplus.store/terms' className='hover:text-cyan-400 transition'>
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href='#' className='hover:text-cyan-400 transition'>
+                <a href='https://pinnacleplus.store/refund' className='hover:text-cyan-400 transition'>
                   Refund Policy
+                </a>
+              </li>
+              <li>
+                <a href='https://pinnacleplus.store/about' className='hover:text-cyan-400 transition'>
+                  About Us
                 </a>
               </li>
             </ul>
